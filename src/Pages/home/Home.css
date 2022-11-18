@@ -1,0 +1,197 @@
+.banner {
+    background-image: url("../../assets/images/bg.png");
+
+}
+
+.all-card {
+    display: flex;
+    justify-content: center;
+}
+
+.home-card {
+    background-color: #0FCFEC;
+    width: 450px;
+    height: 190px;
+    display: flex;
+    padding: 50px 25px;
+    border-radius: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.home-card-dark {
+    background-color: #3A4256;
+    height: 190px;
+    width: 450px;
+    display: flex;
+    padding: 50px 25px;
+    border-radius: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.home-card-img {
+    margin-right: 24px;
+}
+
+.card-t {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.card-d {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+.services-t {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #19D3AE;
+}
+
+.services-sub-t {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3A4256;
+}
+
+.services-card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 440px;
+    height: 310px;
+    background: #FFFFFF;
+    padding: 40px 55px 33px 55px;
+    box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+}
+
+.services-card img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 34px;
+}
+
+.services-card p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #3A4256;
+}
+
+.services-card h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    ;
+}
+
+.doctor-part {
+    background-image: url("../../assets/images/appointment.png");
+    margin-top: 200px;
+}
+
+.review-card {
+    width: 385px;
+    height: 270px;
+    background: #FFFFFF;
+    padding: 38px 34px 31px 29px;
+    box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+}
+
+.review-card p {
+    text-align: start;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.person-img {
+    width: 75px;
+    height: 75px;
+    border: 3px solid #19D3AE;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+
+.person-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.person-con {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+footer {
+    background-image: url("../../assets/images/footer.png");
+    /* background-repeat: no-repeat; */
+    background-size: 100px 100px;
+}
+
+
+/* app  */
+
+.app-all-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 58px;
+}
+
+.app-card {
+    width: 425px;
+    height: 230px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    margin-bottom: 30px;
+}
+
+.app-card p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #19D3AE;
+    margin-bottom: 9px;
+}
+
+.app-card h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 12px;
+}
+
+.app-card span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.app-card label {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: 8px;
+    background-color: #0FCFEC;
+}
